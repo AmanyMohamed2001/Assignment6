@@ -1,0 +1,975 @@
+*{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+}
+header{
+   background-image: url(../imgs/bg.jpg);
+   background-size: 100% 100%;
+}
+.layer{
+   background: rgba(0, 0, 0, 0.6);
+}
+.home p{
+   color: white;
+   font-size: 2.5rem;
+}
+.home p::after{
+   content: "";
+   animation-name: exam;
+   animation-duration: 15s;
+   animation-timing-function: ease-in-out;
+   animation-iteration-count: infinite;
+   position: relative;
+}
+@keyframes exam{
+   0% {
+      content: "C|";
+    }
+  
+    0.5% {
+      content: "CE|";
+    }
+  
+    1% {
+      content: "CEO|";
+    }
+  
+    1.5% {
+      content: "CEO D|";
+    }
+  
+    2% {
+      content: "CEO De|";
+    }
+  
+    2.5% {
+      content: "CEO Dev|";
+    }
+  
+    3% {
+      content: "CEO DevF|";
+    }
+  
+    3.5% {
+      content: "CEO DevFo|";
+    }
+  
+    4% {
+      content: "CEO DevFol|";
+    }
+  
+    4.5% {
+      content: "CEO DevFoli|";
+    }
+  
+    5% {
+      content: "CEO DevFolio|";
+    }
+  
+    5.5% {
+      content: "CEO DevFolio|";
+    }
+  
+    6% {
+      content: "CEO DevFoli|";
+    }
+  
+    6.5% {
+      content: "CEO DevFol|";
+    }
+  
+    7% {
+      content: "CEO DevFo|";
+    }
+  
+    7.5% {
+      content: "CEO DevF|";
+    }
+  
+    8% {
+      content: "CEO Dev|";
+    }
+  
+    8.5% {
+      content: "CEO De|";
+    }
+  
+    9% {
+      content: "CEO D|";
+    }
+  
+    9.5% {
+      content: "CEO|";
+    }
+  
+    10% {
+      content: "CE|";
+    }
+  
+    10.5% {
+      content: "C|";
+    }
+  
+    11% {
+      content: "|";
+    }
+  
+    11.5% {
+      content: "W|";
+    }
+  
+    12% {
+      content: "We|";
+    }
+  
+    12.5% {
+      content: "Web|";
+    }
+  
+    13% {
+      content: "Web |";
+    }
+  
+    13.5% {
+      content: "Web D|";
+    }
+  
+    14% {
+      content: "Web De|";
+    }
+  
+    14.5% {
+      content: "Web Dev|";
+    }
+  
+    15% {
+      content: "Web Deve|";
+    }
+  
+    15.5% {
+      content: "Web Devel|";
+    }
+  
+    16% {
+      content: "Web Develo|";
+    }
+  
+    16.5% {
+      content: "Web Develop|";
+    }
+  
+    17% {
+      content: "Web Develope|";
+    }
+  
+    17.5% {
+      content: "Web Developer|";
+    }
+  
+    18% {
+      content: "Web Developer|";
+    }
+  
+    18.5% {
+      content: "Web Develope|";
+    }
+  
+    19% {
+      content: "Web Develop|";
+    }
+  
+    19.5% {
+      content: "Web Develo|";
+    }
+  
+    20% {
+      content: "Web Devel|";
+    }
+  
+    20.5% {
+      content: "Web Deve|";
+    }
+  
+    21% {
+      content: "Web Dev|";
+    }
+  
+    22.5% {
+      content: "Web De|";
+    }
+  
+    23% {
+      content: "Web D|";
+    }
+  
+    23.5% {
+      content: "Web |";
+    }
+  
+    24% {
+      content: "Web D|";
+    }
+  
+    24.5% {
+      content: "Web De|";
+    }
+  
+    25% {
+      content: "Web Des|";
+    }
+  
+    26% {
+      content: "Web Desi|";
+    }
+  
+    27% {
+      content: "Web Desig|";
+    }
+  
+    28% {
+      content: "Web Design|";
+    }
+  
+    29% {
+      content: "Web Designe|";
+    }
+  
+    30% {
+      content: "Web Designer|";
+    }
+  
+    31% {
+      content: "Web Designer|";
+    }
+  
+    32% {
+      content: "Web Designe|";
+    }
+  
+    33% {
+      content: "Web Design|";
+    }
+  
+    34% {
+      content: "Web Desig|";
+    }
+  
+    35% {
+      content: "Web Desi|";
+    }
+  
+    36% {
+      content: "Web Des|";
+    }
+  
+    37% {
+      content: "Web De|";
+    }
+  
+    38% {
+      content: "Web D|";
+    }
+  
+    39% {
+      content: "Web |";
+    }
+  
+    40% {
+      content: "Web|";
+    }
+  
+    41% {
+      content: "We|";
+    }
+  
+    42% {
+      content: "W|";
+    }
+  
+    43% {
+      content: "|";
+    }
+  
+    44% {
+      content: "F|";
+    }
+  
+    45% {
+      content: "Fr|";
+    }
+  
+    46% {
+      content: "Fro|";
+    }
+  
+    47% {
+      content: "Fron|";
+    }
+  
+    48% {
+      content: "Front|";
+    }
+  
+    49% {
+      content: "Fronte|";
+    }
+  
+    50% {
+      content: "Fronten|";
+    }
+  
+    51% {
+      content: "Frontend|";
+    }
+  
+    52% {
+      content: "Frontend |";
+    }
+  
+    53% {
+      content: "Frontend D|";
+    }
+  
+    54% {
+      content: "Frontend De|";
+    }
+  
+    55% {
+      content: "Frontend Dev";
+    }
+  
+    56% {
+      content: "Frontend Deve|";
+    }
+  
+    57% {
+      content: "Frontend Devel|";
+    }
+  
+    58% {
+      content: "Frontend Develo|";
+    }
+  
+    59% {
+      content: "Frontend Develop|";
+    }
+  
+    60% {
+      content: "Frontend Develope|";
+    }
+  
+    61% {
+      content: "Frontend Developer|";
+    }
+  
+    62% {
+      content: "Frontend Developer|";
+    }
+  
+    63% {
+      content: "Frontend Develope|";
+    }
+  
+    64% {
+      content: "Frontend Develop|";
+    }
+  
+    65% {
+      content: "Frontend Develo|";
+    }
+  
+    66% {
+      content: "Frontend Devel|";
+    }
+  
+    67% {
+      content: "Frontend Deve|";
+    }
+  
+    68% {
+      content: "Frontend Dev|";
+    }
+  
+    69% {
+      content: "Frontend De|";
+    }
+  
+    70% {
+      content: "Frontend D|";
+    }
+  
+    71% {
+      content: "Frontend |";
+    }
+  
+    72% {
+      content: "Frontend|";
+    }
+  
+    73% {
+      content: "Fronten|";
+    }
+  
+    74% {
+      content: "Fronte|";
+    }
+  
+    75% {
+      content: "Front|";
+    }
+  
+    76% {
+      content: "Fron|";
+    }
+  
+    77% {
+      content: "Fro|";
+    }
+  
+    78% {
+      content: "Fr|";
+    }
+  
+    79% {
+      content: "F|";
+    }
+  
+    80% {
+      content: "|";
+    }
+  
+    81% {
+      content: "|";
+    }
+  
+    82% {
+      content: "G|";
+    }
+  
+    83% {
+      content: "Gr|";
+    }
+  
+    84% {
+      content: "Gra|";
+    }
+  
+    85% {
+      content: "Grap|";
+    }
+  
+    86% {
+      content: "Graph|";
+    }
+  
+    87% {
+      content: "Graphi|";
+    }
+  
+    88% {
+      content: "Graphic|";
+    }
+  
+    89% {
+      content: "Graphic |";
+    }
+  
+    90% {
+      content: "Graphic |";
+    }
+  
+    91% {
+      content: "Graphic D|";
+    }
+  
+    92% {
+      content: "Graphic De|";
+    }
+  
+    93% {
+      content: "Graphic Des|";
+    }
+  
+    94% {
+      content: "Graphic Desi|";
+    }
+  
+    95% {
+      content: "Graphic Desig|";
+    }
+  
+    96% {
+      content: "Graphic Design|";
+    }
+  
+    97% {
+      content: "Graphic Designe|";
+    }
+  
+    98% {
+      content: "Graphic Designer|";
+    }
+  
+    99% {
+      content: "Graphic Designer|";
+    }
+  
+    100% {
+      content: "Graphic Designer|";
+    }
+}
+.home h1{
+   font-size: 70px;
+   font-weight: 700;
+}
+.icons{
+   padding: 1.5rem 0px;
+}
+.mico-circle{
+   font-size: 14px;
+   width: 5px;
+   height: 5px;
+   line-height: 5px;
+   text-align: center;
+   border-radius: 50%;
+   background: rgba(0, 0, 0, 0.6);
+   margin: 0 20px 0 0;
+   padding: 1rem;
+}
+.mico-circle i{
+   font-size: 20px;
+   font-weight: 500;
+   margin: -17px;
+}
+.navbar-brand{
+  color: white;
+  font-size: 30px;
+  font-weight: 700;
+}
+.navbar-brand:hover{
+  color: #000;
+}
+.nav-link{
+  color: white;
+  font-weight: 600;
+}
+.nav-link:hover{
+  color: black;
+}
+.imgsaboutme{
+  padding-left: 5rem;
+  padding-top: 2rem;
+  position: relative;
+}
+.imgsaboutme img{
+  width: 90%;
+  position: relative !important;
+}
+.imgsaboutme img::after{
+  content: '';
+  width: 80%;
+  height: 80%;
+  position: absolute;
+  left: 0px;
+  bottom: 30px;
+  background-image: url(../images/dots.png);
+  background-repeat: repeat;
+  z-index: -1;
+}
+.abouymeulux{
+  padding-left: 0.5rem;
+  padding-top: 2rem;
+}
+.abouymeulux h2{
+  font-weight: 800;
+}
+.abouymeulux p{
+  font-weight: 600;
+  color: #7a7979;
+  font-family: 'Arial Narrow', Arial, sans-serif;
+}
+.abouymeulux .p1{
+  letter-spacing: 2px;
+}
+.abouymeulux p span{
+  color: #535252;
+}
+.skillspar p{
+  font-weight: 700 !important;
+  color: #212529 !important;
+  text-align: left !important;
+  margin-bottom: 0.5rem !important;
+  line-height: 1.8;
+  margin-top: 0;
+  font-family: "Poppins", sans-serif;
+}
+.skillspar p span {
+  float: right !important;
+  color: #212529 !important;
+  font-family: "Poppins", sans-serif;
+}
+.progressskillspar {
+  background-color: #f7f7f7;
+  display: flex;
+  height: 1.5rem !important;
+  margin-bottom: 1rem !important;
+  box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.15) inset;
+  border-radius: 5px;
+}
+.progress-bar {
+  background-color: black;
+  border-radius: 5px;
+}
+.btndownload .a1{
+  padding: 10px 30px;
+  text-decoration: none;
+  color: white;
+  background-color: #212529;
+  border: 1px solid #212529;
+  border-radius: 5px;
+  border-width: 2px;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 15px;
+  transition: all 0.5s ease;
+  font-family: "Poppins", sans-serif;
+}
+.btndownload a{
+  padding: 10px 30px;
+  text-decoration: none;
+  color: #212529;
+  background-color: white;
+  border: 1px solid #212529;
+  border-radius: 5px;
+  border-width: 2px;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 15px;
+  transition: all 0.5s ease;
+  font-family: "Poppins", sans-serif;
+}
+.btndownload .a1:hover{
+  color: black;
+  background-color: white;
+}
+.btndownload a:hover{
+  color: white;
+  background-color: #000;
+}
+.services{
+  background-color: #f7f4f4;
+}
+.servicesweb h3{
+  font-weight: 800;
+  font-family: 'Arial Narrow', Arial, sans-serif;
+  font-size: 50px;
+}
+.servicesicon{
+  margin-bottom: 20px;
+}
+.ico-circle{
+  font-size: 30px;
+  width: 70px;
+  height: 70px;
+  line-height: 5px;
+  text-align: center;
+  border-radius: 50%;
+  background: #f4f4f4;
+  transition: all .5s;
+  margin: 0 auto;
+  display: block;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+.ico-circle:hover{
+  background-color: #000;
+  color: white;
+}
+.servicespara p{
+  color: #7a7979;
+  font-weight: 600;
+}
+.protofiloweb h4{
+  font-size: 50px;
+  font-weight: 800;
+  font-family: 'Arial Narrow', Arial, sans-serif;
+}
+.prtofiloall ul li{
+  padding: 25px;
+}
+.prtofiloall ul li a{ 
+  text-decoration: none;
+  color: black;
+  font-size: 17px;
+  font-weight: 600;
+  font-family: 'Arial Narrow', Arial, sans-serif;
+}
+figcaption{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  left: 5px;
+  right: 5px;
+  bottom: 5px;
+  background: rgba(250, 250, 250, 0.9);
+  flex-direction: column;
+  opacity: 0;
+}
+figcaption p{
+  font-weight: 600;
+}
+figcaption i{
+  border: 3px solid;
+  border-radius: 50%;
+  padding: 8px;
+  transition: all .9s;
+}
+figcaption i:hover{
+  color: white;
+  background-color: #000;
+}
+figcaption:hover{
+  opacity: 0.9;
+  transition: all 0.4;
+  transform: translateY(0);
+}
+.testimonials{
+  background-color: #f7f4f4;
+}
+.testimonialsweb h5{
+  font-weight: 700;
+  font-size: 50px;
+  font-family: 'Arial Narrow', Arial, sans-serif;
+}
+.testimonialsall{
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
+.testimonialsall img{
+  border-radius: 50%;
+  width: 10%;
+}
+.testimonialsall h6{
+  font-size: 20px;
+  font-weight: 600;
+  font-family: 'Arial Narrow', Arial, sans-serif;
+  padding: 20px;
+}
+.testimonialsall p{
+  font-family: 'Arial Narrow', Arial, sans-serif;
+  color: #6b6969;
+}
+.myclass{
+  position: unset;
+}
+.carousel-indicators [data-bs-target]{
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  background-color: #7a7979;
+}
+.happyweb{
+  padding-left: 10rem;
+}
+.items i{
+  font-size: 35px;
+  font-weight: 800;
+  padding: 8px;
+}
+.items h6{
+  font-size: 35px;
+  font-weight: 800;
+}
+.items p{
+  font-weight: 700;
+  color: #6e6c6c;
+}
+.ourblog{
+  background-color: #f7f4f4;
+}
+.ourblogweb h6{
+  font-size: 50px;
+  font-weight: 800;
+  font-family: 'Arial Narrow', Arial, sans-serif;
+}
+.carousel-indicators{
+  position: unset;
+}
+.card{
+  border: unset;
+}
+.card-img{
+  overflow: hidden;
+  transition: all 1.5s ease-in-out;
+}
+.card:hover img{
+  transform: scale(1.5,1.5);
+}
+.btn-primary {
+  color: unset;
+  background-color: unset;
+  border-color: unset;
+  border: unset;
+}
+.btn-primary:hover{
+  background-color: white;
+  color: #000;
+}
+.contactusweb h6{
+  font-size: 50px;
+  font-family: 'Arial Narrow', Arial, sans-serif;
+  font-weight: 800;
+}
+.contactusall h6{
+  font-size: 20px;
+  font-weight: 600;
+  font-family: 'Arial Narrow', Arial, sans-serif;
+}
+.contactusall .an-circle{
+  font-size: 30px;
+    width: 70px;
+    height: 70px;
+    line-height: 5px;
+    text-align: center;
+    border-radius: 50%;
+    background: #f4f4f4;
+    transition: all .5s;
+    margin: 0 auto;
+    display: block;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.contactusall .an-circle:hover{
+  color: white;
+  background-color: #000;
+}
+.contactuspar .thefirstname {
+  position: relative;
+  padding: 15px;
+  min-height: 1px;
+  text-align: center;
+  padding-left: 13rem;
+}
+.contactuspar .name {
+  margin-bottom: 20px;
+}
+.contactuspar .textname {
+  display: block;
+  padding: 10px 10px;
+  height: auto;
+  background-image: none;
+  background-color: #f4f4f4;
+  color: white;
+  border: #f4f4f4 solid 0.5px;
+  width: 110%;
+  border-radius: 6px;
+  line-height: 1.42857143;
+  margin: 20px;
+  font-size: 15px;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+}
+.contactuspar .theemail{
+  position: relative;
+  padding: 15px;
+  min-height: 1px;
+  text-align: center;
+}
+.contactuspar .email {
+  margin-bottom: 5px;
+}
+.contactuspar .textemail {
+  display: block;
+  padding: 10px 10px;
+  height: auto;
+  background-image: none;
+  background-color: #f4f4f4;
+  color: white;
+  border: #f4f4f4 solid 0.5px;
+  width: 65%;
+  border-radius: 6px;
+  line-height: 1.42857143;
+  margin: 20px;
+  font-size: 15px;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+}
+.contactuspar .themessage {
+  position: relative;
+  min-height: 1px;
+  text-align: center;
+  width: 80%;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.contactuspar .message {
+  margin-bottom: 0px;
+  padding-left: 12rem;
+}
+.contactuspar .form-control {
+  display: block;
+  padding: 20px 10px;
+  height: auto;
+  background-image: none;
+  background-color: #f4f4f4;
+  border: #f4f4f4 solid 0.5px;
+  color: white;
+  width: 100%;
+  border-radius: 6px;
+  line-height: 1.42857143;
+  margin: 20px;
+  font-size: 15px;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+}
+.bottom {
+  width: 100%;
+  margin: 50px;
+  font-size: 15px;
+  font-family: 'Arial Narrow', Arial, sans-serif;
+  font-weight: 600;
+  cursor: pointer;
+  padding-left: 11rem;
+}
+.bottom a {
+  text-decoration: none;
+  color: white;
+  padding: 0.8rem 2.6rem;
+  border: 1px solid #000;
+  background-color: #000;
+  border-radius: 5px;
+  border-width: 2px;
+  cursor: pointer;
+  transition: all 0.5s ease;
+  box-shadow: 0px 5px 15px rgb(0 0 0 / 20%);
+}
+.cope{
+  background-color: #2c2b2b;
+}
+.copeweb p{
+  color: #919c9c;
+  font-family: 'Arial Narrow', Arial, sans-serif;
+  font-weight: 550;
+}
+.back-to-top{
+  position: fixed;
+  right: 15px;
+  bottom: 15px;
+  color: white;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  background: #0078ff;
+  text-align: center;
+  line-height: 1;
+  z-index: 11;
+  transition: backgrond 0.5s;
+  font-size: 20px;
+}
+.back-to-top i{
+  color: white;
+  padding-top: 10px;
+}
